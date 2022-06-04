@@ -1,0 +1,66 @@
+body{
+    background-color: #023059;
+    text-align: center;
+}
+h1{
+    color: #f2c307;
+    font-family: 'Press Start 2P';
+    font-size: 4rem;
+    margin: 2% auto 0 auto;
+}
+footer{
+    color: #f2c307;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+.container{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: solid 10px black;
+    margin: 30px;
+    display: inline-block;
+}
+.g{
+    background-color: green;
+}
+.b{
+    background-color: blue;
+}
+.y{
+    background-color: yellow;
+}
+.r{
+    background-color: red;
+}
+
+
+
+.pressed{
+    box-shadow: 0 0 50px white;
+    border-color: gray;
+}
+
+
+.wrong{
+    box-shadow: 0 0 50px red;
+    background-color: black;
+    background-image: url("images/wrong.png");
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.gg{
+    background-color: black;
+    color: red;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    line-height: 175%;
+    visibility: hidden;
+}
