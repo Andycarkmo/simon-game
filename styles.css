@@ -5,13 +5,22 @@ body{
 h1{
     color: #f2c307;
     font-family: 'Press Start 2P';
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin: 2% auto 0 auto;
 }
 footer{
     color: #f2c307;
     font-family: sans-serif;
     font-size: 0.8rem;
+}
+.btn-start{
+    background-color: #f2c307;
+    color: #023059;
+    font-family: 'Press Start 2P';
+    margin: 2% auto;
+}
+p{
+    margin: 0;
 }
 .container{
     display: block;
@@ -23,8 +32,21 @@ footer{
     width: 200px;
     border-radius: 20%;
     border: solid 10px black;
-    margin: 30px;
+    margin: 20px;
     display: inline-block;
+}
+@media(max-width:900px){
+    .box{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .btn-start{
+        font-size: 1rem;
+    }
 }
 .g{
     background-color: green;

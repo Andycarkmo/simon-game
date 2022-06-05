@@ -4,10 +4,21 @@ var gamePatterns = [];
 var gameChoices = [];
 var level;
 var clicks = 0;
+var started = "inicio";
 
 // inicio
-var started = "inicio";
 $(document).keydown(function(){
+    if (started == "inicio"){
+        level = 1;
+        $(".title").text("Level " + level);
+        randomColor();
+        level++;
+    } else if (started == "gg"){
+        location.reload();
+    }
+});
+
+$(".btn-start").click(function(){
     if (started == "inicio"){
         level = 1;
         $(".title").text("Level " + level);
